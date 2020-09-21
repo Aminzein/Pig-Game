@@ -45,7 +45,23 @@ body {
     padding: 100px;
 }
 
-
+/**********************************************
+*** INPUT BAR
+**********************************************/
+.input {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 520px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+}
+.input:focus {
+    outline: none;
+}
 
 /**********************************************
 *** PLAYERS
